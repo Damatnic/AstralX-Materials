@@ -1,10 +1,10 @@
-# Push AstralX-Review to GitHub
+# Push AstralX-Materials to GitHub
 
 ## Step 1: Create Repository on GitHub
 
 1. Go to https://github.com/new
 2. Create a new repository with these settings:
-   - Repository name: `AstralX-Review`
+   - Repository name: `AstralX-Materials`
    - Description: "Streamlined AstralX Browser repository for Claude web client review - APEX 10/10 implementation"
    - Public repository
    - DO NOT initialize with README (we already have one)
@@ -16,19 +16,19 @@
 After creating the empty repository on GitHub, run these commands:
 
 ```bash
-cd "C:\Astral Projects\Astral-Projects\_Repos\Astral-X\AstralX-Review"
+cd "C:\Astral Projects\Astral-Projects\_Repos\Astral-X\AstralX-Materials"
 
-# If you haven't set the remote yet:
-git remote add origin https://github.com/Damatnic/AstralX-Review.git
+# Add the remote repository
+git remote add origin https://github.com/Damatnic/AstralX-Materials.git
 
 # Push to GitHub
-git push -u origin main
+git push -u origin master
 ```
 
 ## Step 3: Verify Upload
 
 Your repository should now be available at:
-https://github.com/Damatnic/AstralX-Review
+https://github.com/Damatnic/AstralX-Materials
 
 ## What's Included
 
@@ -41,7 +41,7 @@ https://github.com/Damatnic/AstralX-Review
 ## Repository Structure
 
 ```
-AstralX-Review/
+AstralX-Materials/
 ├── CLAUDE_REVIEW_SUMMARY.md    # Start here for overview
 ├── README.md                   # Project introduction
 ├── core/                       # Essential APEX implementations
