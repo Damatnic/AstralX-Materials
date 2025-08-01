@@ -24,7 +24,16 @@ This repository contains the core materials and documentation for the AstralX Br
 AstralX-Materials/
 ├── core/                    # Core implementations
 │   ├── audio/              # Audio extraction system (4 files)
-│   ├── video/              # Enhanced video components (5 files)
+│   ├── video/              # Enhanced video components (6 files)
+│   │   ├── AdultContentVideoDetector.kt
+│   │   ├── VideoThumbnailPreviewEngine.kt
+│   │   ├── AdultContentVideoCodecs.kt
+│   │   ├── VideoDownloadManager.kt
+│   │   ├── VideoCastManager.kt
+│   │   └── ModernVideoControlsOverlay.kt
+│   ├── ui/                 # UI components (2 files)
+│   │   ├── ModernBrowserFragment.kt
+│   │   └── BrowserViewModel.kt
 │   ├── browser/            # Browser engine enhancements
 │   ├── di/                 # Dependency injection modules
 │   ├── download/           # Advanced download engine
